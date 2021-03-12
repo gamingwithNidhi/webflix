@@ -1,0 +1,18 @@
+.DigitalClock{
+    align-self: center;
+    display: grid;
+    position: absolute;
+ top:50%;
+ left: 50%;
+ transform: translateX(-50%) translateY(-50%);
+    width: 100px;
+    height: 30px;
+    border: 2cm;
+    border-block-color: black;
+}
+.DigitalClock.p{
+    text-align: center;
+    font-family: 'italic small-caps bold 12px/30px Georgia, serif', monospace;
+    font-size: 7em;
+    
+}
