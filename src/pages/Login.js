@@ -1,11 +1,10 @@
 import React , {useState ,useEffect} from 'react';
 import './Login.css';
-import SignIn from './SignIn'
-
+import SignIn from './SignIn';
+import OtpPage from './OtpPage';
 
 function Login() {
 const [signIn,setSignIn]=useState(false);
-
   return (
   <div className="Login">
   <div className="Login_background">
@@ -22,14 +21,14 @@ const [signIn,setSignIn]=useState(false);
               <h2>Watch anywhere. Cancel anytime.</h2>
                 <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
           <div className="Login_input">
-          <form>
-          <input className="Login_email" type="email" placeholder="Email Address"/>
-          <button onClick={()=>setSignIn(true)} className="Login_getStarted">Get Started </button>
-          </form>
+         
+          <OtpPage/>
+         
       </div>
         </>
       )}
       
+
           
       
        </div>

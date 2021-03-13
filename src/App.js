@@ -2,6 +2,7 @@ import React , {useState ,useEffect} from 'react';
 import { BrowserRouter as Router,Switch,Route,Link,useRouteMatch,useParams} from 'react-router-dom';
 import './App.css';
 import SignIn from './pages/SignIn';
+import OtpPage from './pages/OtpPage';
 import {login,logout,selectUser} from "./features/userSlice";
 import {Provider, useDispatch,useSelector} from "react-redux";
  import {auth} from './lib/firebase';
@@ -40,14 +41,16 @@ return unsubscribe;
     <Router>
     { !user ? (
       <SignIn/>
+   
       ):(
       <div>
 
         <Switch>
           <Route excat path="/">
-             <Home />
+           <Home />
           </Route>
              </Switch>
+          
       </div>
        )}
     </Router>

@@ -7,7 +7,7 @@ import {auth} from '../lib/firebase';
 export default function SignIn() {
   const emailRef= useRef(null);
   const passwordRef=useRef(null);
-
+  const history = useHistory();
    const signIn = (e)=>{
       e.preventDefault();
        auth.signInWithEmailAndPassword(
@@ -15,6 +15,7 @@ export default function SignIn() {
           passwordRef.current.value 
         ).then((authUser)=>{
           console.log(authUser);
+          history.push(ROUTES.HOME);
         }).catch((error)=>{
           alert(error.message);
         });

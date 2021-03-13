@@ -7,8 +7,7 @@ import  Login from './Login';
 function Home() {
   return (
     <div className="Home_Page">
-   <Login/>
-      <Banner />
+        <Banner />
      </div>
   );
 }
