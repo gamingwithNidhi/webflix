@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/webflix/static/css/main.f2247020.chunk.css",
+    "main.js": "/webflix/static/js/main.2b245d50.chunk.js",
+    "main.js.map": "/webflix/static/js/main.2b245d50.chunk.js.map",
+    "runtime-main.js": "/webflix/static/js/runtime-main.efba83ef.js",
+    "runtime-main.js.map": "/webflix/static/js/runtime-main.efba83ef.js.map",
+    "static/js/2.f9573a64.chunk.js": "/webflix/static/js/2.f9573a64.chunk.js",
+    "static/js/2.f9573a64.chunk.js.map": "/webflix/static/js/2.f9573a64.chunk.js.map",
+    "static/js/3.e12ee8e4.chunk.js": "/webflix/static/js/3.e12ee8e4.chunk.js",
+    "static/js/3.e12ee8e4.chunk.js.map": "/webflix/static/js/3.e12ee8e4.chunk.js.map",
+    "index.html": "/webflix/index.html",
+    "static/css/main.f2247020.chunk.css.map": "/webflix/static/css/main.f2247020.chunk.css.map",
+    "static/js/2.f9573a64.chunk.js.LICENSE.txt": "/webflix/static/js/2.f9573a64.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/webflix/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.efba83ef.js",
+    "static/js/2.f9573a64.chunk.js",
+    "static/css/main.f2247020.chunk.css",
+    "static/js/main.2b245d50.chunk.js"
+  ]
+}
